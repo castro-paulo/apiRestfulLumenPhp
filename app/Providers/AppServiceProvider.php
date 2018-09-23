@@ -14,8 +14,8 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'App\Repositories\PacoteRepositoryInterface', 
-            'App\Repositories\PacoteRepositoryEloquent'
+            'App\Repositories\PackageRepositoryInterface', 
+            'App\Repositories\PackageRepositoryEloquent'
         );
     }
 }
